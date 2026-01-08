@@ -178,3 +178,41 @@ nav .menu a {
   letter-spacing: 0%;
 }
 
+#knowledge {
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+  padding: 120px;
+  gap: 60px;
+}
+#knowledge .knowledge-text span {
+  color: #30b868;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+#knowledge .knowledge-text h1 {
+  font-style: Bold;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 16px;
+}
+#knowledge .knowledge-text p {
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+#knowledge .knowledge-text .task {
+  margin-bottom: 16px;
+}
+
+#knowledge .knowledge-text .task h4 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  margin-left: 4px;
+}
