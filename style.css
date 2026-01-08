@@ -113,7 +113,7 @@ nav .menu a {
 }
 
 #card-section {
-  padding: 0 120px 120px;
+  padding: 0 120px;
   width: 90%;
   max-width: 1360px;
   margin: auto;
@@ -215,4 +215,37 @@ nav .menu a {
   vertical-align: top;
   font-size: 16px;
   margin-left: 4px;
+}
+
+#early-access {
+  padding: 0 120px 120px;
+  text-align: center;
+}
+
+#early-access .early-access-section {
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-height: 384px;
+  border-radius: 12px;
+}
+
+.early-access-section .early-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.early-access-section .early-text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+.early-access-section .early-button p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-top: 16px;
 }
