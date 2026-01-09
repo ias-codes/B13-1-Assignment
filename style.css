@@ -92,6 +92,18 @@ nav .menu a {
   text-align: center;
   margin: 0px auto 32px;
 }
+button img {
+  vertical-align: bottom;
+  max-width: 20px;
+  max-width: 20px;
+}
+
+.btn img {
+  margin-left: 10px;
+}
+.btn-white img {
+  margin-right: 10px;
+}
 
 .banner-text h1 {
   display: flex;
