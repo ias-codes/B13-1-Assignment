@@ -68,23 +68,48 @@ nav .menu a {
   gap: 32px;
 }
 
-/* .top-text .one {
+.top-text {
+  background-color: white;
+  border-radius: 25px;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  max-width: 229px;
+  margin: auto;
+}
+
+.top-text .one {
+  background-color: #4691651c;
+  border-radius: 8px;
   width: 16px;
   height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-text .two {
+  background-color: #46916542;
   border-radius: 8px;
-  background-color: #30b868;
-  opacity: 0.2;
-} */
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-text .three {
+  background-color: #469165;
+  border-radius: 8px;
+  width: 6px;
+  height: 6px;
+}
 
 .banner-text .top-text p {
-  background-color: white;
   color: #30b868;
-  max-width: 229px;
   text-align: center;
   margin: auto;
   font-size: 16px;
-  padding: 8px 12px;
-  border-radius: 25px;
 }
 
 .banner-text,
@@ -202,7 +227,6 @@ button img {
   color: #30b868;
   font-size: 16px;
   text-transform: uppercase;
-  margin-bottom: 16px;
 }
 #knowledge .knowledge-text h1 {
   font-style: Bold;
@@ -210,6 +234,7 @@ button img {
   font-weight: 700;
   line-height: 58px;
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 #knowledge .knowledge-text p {
   font-size: 15px;
