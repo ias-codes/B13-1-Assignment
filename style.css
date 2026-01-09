@@ -235,11 +235,12 @@ button img {
 }
 #knowledge .knowledge-text h1 {
   font-style: Bold;
-  font-size: 47px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 58px;
   margin-bottom: 16px;
   margin-top: 16px;
+  text-transform: capitalize;
 }
 #knowledge .knowledge-text p {
   font-size: 15px;
