@@ -321,9 +321,14 @@ button img {
   margin-top: 16px;
 }
 
-#footer-container p {
+#footer-container .copyright {
+  border-top: 1px solid #dddddd2d;
+}
+
+#footer-container .copyright p {
   text-align: center;
-  color: white;
+  color: #fafafa;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  margin-top: 30px;
 }
